@@ -1,0 +1,46 @@
+{
+"ServiceName": "IM_LogOrUpdateIncident",
+"objCommonParameters": {
+"RequestType": "",
+"_ProxyDetails": {
+"OrgID": 1,
+"Password": "",
+"ProxyID": 0,
+"ReturnType": "JSON",
+"UserName": ""
+},
+"incidentParamsJSON": {
+"IncidentContainerJsonObj": {
+"CI_ID": "",
+"CI_Key": "hostname",
+"CI_Value": "",
+"CustomFields": [],
+"Ticket": {
+"Assigned_WorkGroup_Name": "",
+"Caller_EmailID": "",
+"Category_Name": "",
+"Classification_Name": "",
+"Closure_Code_Name": "",
+"Description": "",
+"Impact_Name": "",
+"IsFromWebService": true,
+"Medium": "Web",
+"OpenCategory_Name": "",
+"PageName": "LogTicket",
+"Priority_Name": "",
+"ResolutionCodeName": "",
+"SLA_Name": "",
+"Source": "Person",
+"Status": "New",
+"Sup_Function": "",
+"Urgency_Name": ""
+},
+"TicketInformation": {
+"Information": "",
+"InternalLog": "",
+"UserLog": ""
+},
+"Updater": "Caller"
+}
+}
+}
